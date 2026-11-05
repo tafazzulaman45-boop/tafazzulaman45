@@ -1,0 +1,21 @@
+{
+  "name": "tafazzul-aman-portfolio",
+  "version": "2.0.0",
+  "description": "Official portfolio of Tafazzul Aman - SEO, GEO, AIO, AEO & Digital Marketing Specialist",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "tafazzul-aman",
+    "seo",
+    "geo",
+    "aio",
+    "aeo",
+    "digital-marketing",
+    "yoforex",
+    "generative-engine-optimization",
+    "answer-engine-optimization"
+  ],
+  "author": "Tafazzul Aman <tafazzulaman45@gmail.com>",
+  "license": "MIT"
+}
