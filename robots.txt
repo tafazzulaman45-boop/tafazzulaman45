@@ -24,3 +24,6 @@ User-agent: Bingbot
 Allow: /
 
 Sitemap: https://tafazzulaman.vercel.app/sitemap.xml
+
+# LLM & AI Entity Reference Standard (GEO/AEO)
+# https://tafazzulaman.vercel.app/llms.txt
