@@ -2,81 +2,10 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/digital-marketing-agency",
-      "destination": "/blog/digital-marketing-agency",
-      "permanent": true
-    },
-    {
-      "source": "/digital-marketing",
-      "destination": "/blog/digital-marketing",
-      "permanent": true
-    },
-    {
-      "source": "/content-marketing-strategy",
-      "destination": "/blog/content-marketing-strategy",
-      "permanent": true
-    },
-    {
-      "source": "/conversion-rate-optimization",
-      "destination": "/blog/conversion-rate-optimization",
-      "permanent": true
-    },
-    {
-      "source": "/email-marketing",
-      "destination": "/blog/email-marketing",
-      "permanent": true
-    },
-    {
-      "source": "/facebook-ads",
-      "destination": "/blog/facebook-ads",
-      "permanent": true
-    },
-    {
-      "source": "/google-ads-management",
-      "destination": "/blog/google-ads-management",
-      "permanent": true
-    },
-    {
-      "source": "/lead-generation",
-      "destination": "/blog/lead-generation",
-      "permanent": true
-    },
-    {
-      "source": "/local-seo",
-      "destination": "/blog/local-seo",
-      "permanent": true
-    },
-    {
-      "source": "/online-reputation-management",
-      "destination": "/blog/online-reputation-management",
-      "permanent": true
-    },
-    {
-      "source": "/performance-marketing",
-      "destination": "/blog/performance-marketing",
-      "permanent": true
-    },
-    {
-      "source": "/search-engine-optimization",
-      "destination": "/blog/search-engine-optimization",
-      "permanent": true
-    },
-    {
-      "source": "/seo-services",
-      "destination": "/blog/seo-services",
-      "permanent": true
-    },
-    {
-      "source": "/social-media-marketing",
-      "destination": "/blog/social-media-marketing",
-      "permanent": true
-    },
-    {
-      "source": "/website-optimization",
-      "destination": "/blog/website-optimization",
-      "permanent": true
+      "source": "/blog/:slug",
+      "destination": "/:slug"
     }
   ],
   "headers": [
